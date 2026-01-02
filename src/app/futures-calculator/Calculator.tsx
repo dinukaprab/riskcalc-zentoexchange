@@ -74,6 +74,11 @@ export default function Calculator() {
 
   return (
     <section className="calculator">
+      <header className="calculator-header">
+        <h1>USDT-M Futures Risk Calculator</h1>
+        <p>Risk-first sizing with adjustable 10x-20x leverage control.</p>
+      </header>
+
       <div className="calculator-grid">
         <div className="calculator-panel">
           <h2>Account</h2>
